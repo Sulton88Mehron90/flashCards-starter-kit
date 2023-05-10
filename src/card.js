@@ -3,15 +3,11 @@ const createCard = (id, question, answers, correctAnswer) => {
     id: id,
     question: question,
     answers: answers,
-    correctAnswer:correctAnswer
+    correctAnswer: correctAnswer
   };
 };
 
 
-
-
-
-
 module.exports = {
-    createCard,
-  };
+  createCard
+};
