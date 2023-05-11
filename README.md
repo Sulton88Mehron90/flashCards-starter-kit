@@ -5,9 +5,9 @@ This project allows users to answer all questions in a set of flash cards using 
 ### Demo
 ![flash cards gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2FmZjU0OWIxOWM0ZDdjODVhYjY2MDE5NzhmOWVkY2IyODc0NzgzNCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/pJcns1yme6ZJAboqWh/giphy.gif)
 
-[FlashCards Starter Kit](../src/parvin.gif)
+[FlashCards Starter Kit](./src/parvin.gif)
 
-![image](../src/parvin.gif)
+![image](./src/parvin.gif)
 
 ### Technologies Used
 
