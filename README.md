@@ -1,11 +1,11 @@
 # FlashCards Starter Kit
 
-This project allows users to answer all questions in a set of flash cards using the command line. Users can attempt to answer questions one by one and recieve feedback after each question. 
-<!-- If the user scores under 90% the round will start over. -->
+This project allows users to answer all questions in a set of flash cards using the command line. Users can attempt to answer questions one by one and recieve feedback after each question.
 
 ### Demo
-<!-- ![flash cards gif](https://media.giphy.com/media/1zkb1q58eTiTH6D7wc/giphy.gif)
-![image](demo.gif) -->
+![flash cards gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDg2OWQ0NzBmZjI2ZWZlYTRhYTFmOTA2M2UxZDVlYzU2NDg3YWRlNSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/zfXi0frlDhLYLJ2k51/giphy-downsized-large.gif)
+
+![image](demo.gif)
 
 ### Technologies Used
 
