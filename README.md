@@ -7,6 +7,8 @@ This project allows users to answer all questions in a set of flash cards using 
 
 [FlashCards Starter Kit](./src/parvin.gif)
 
+![image](./src/parvin.gif)
+
 ### Technologies Used
 
 - Functional programming Javascript
