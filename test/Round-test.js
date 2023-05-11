@@ -67,13 +67,13 @@ it('Should be a function', function() {
 it('Should be able to make a correct guess', function() {
   feedback = takeTurn('dog', round);
 
-  expect(feedback).to.be.equal('Correct!');
+  expect(feedback).to.be.equal('Correct! ✅');
 });
 
 it('Should be able to make an incorrect guess', function() {
   feedback = takeTurn('ball python', round);
 
-  expect(feedback).to.be.equal('Incorrect!');
+  expect(feedback).to.be.equal('Incorrect! ❎');
 });
 
 it('Should be able to track the number of turns made', function() {
