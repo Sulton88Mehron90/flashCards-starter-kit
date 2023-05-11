@@ -1,17 +1,17 @@
 const createRound = (deck) => ({
-    deck: deck,
-    currentCard: currentCard = deck[0],
-    incorrectGuesses: incorrectGuesses = [],
-    turns: turns = 0
-  });
+  deck: deck,
+  currentCard: currentCard = deck[0],
+  incorrectGuesses: incorrectGuesses = [],
+  turns: turns = 0
+});
 
 const takeTurn = (guess, round) => {
   message = ''
   if (guess === round.currentCard.correctAnswer) {
-    message = 'Correct!'
+    message = 'Correct! ✅'
   }else{
     guess !== round.currentCard.correctAnswer;
-    message = 'Incorrect!'
+    message = 'Incorrect! ❎'
     round.incorrectGuesses.push(round.currentCard.id);
   };
   round.turns++
