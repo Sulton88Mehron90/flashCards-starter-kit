@@ -17,5 +17,5 @@ This project allows users to answer all questions in a set of flash cards using 
 
 1. Copy the SSH key on GitHub inside the code dropdown
 2. Using the terminal, run `git clone [SSH key here]`
-3. Run command `cd flashcards` to move into the project directory
+3. Run command `cd flashCards-starter-kit` to move into the project directory
 4. Run command `node index.js` to run the program in the Command Line.
