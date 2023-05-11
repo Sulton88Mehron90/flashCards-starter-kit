@@ -3,11 +3,11 @@
 This project allows users to answer all questions in a set of flash cards using the command line. Users can attempt to answer questions one by one and recieve feedback after each question.
 
 ### Demo
-<!-- ![flash cards gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDg2OWQ0NzBmZjI2ZWZlYTRhYTFmOTA2M2UxZDVlYzU2NDg3YWRlNSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/zfXi0frlDhLYLJ2k51/giphy-downsized-large.gif) -->
+![flash cards gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2FmZjU0OWIxOWM0ZDdjODVhYjY2MDE5NzhmOWVkY2IyODc0NzgzNCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/pJcns1yme6ZJAboqWh/giphy.gif)
 
-[FlashCards Starter Kit](/Users/parvinsattorovaedwards/turing_work/2mod/flashCards-starter-kit/src/ezgif.com-crop.gif)
+[FlashCards Starter Kit](../src/parvin.gif)
 
-![image](/Users/parvinsattorovaedwards/turing_work/2mod/flashCards-starter-kit/src/ezgif.com-crop.gif)
+![image](../src/parvin.gif)
 
 ### Technologies Used
 
