@@ -3,7 +3,7 @@
 This project allows users to answer all questions in a set of flash cards using the command line. Users can attempt to answer questions one by one and recieve feedback after each question.
 
 ### Demo
-![flash cards gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2FmZjU0OWIxOWM0ZDdjODVhYjY2MDE5NzhmOWVkY2IyODc0NzgzNCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/pJcns1yme6ZJAboqWh/giphy.gif)
+<!-- ![flash cards gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2FmZjU0OWIxOWM0ZDdjODVhYjY2MDE5NzhmOWVkY2IyODc0NzgzNCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/pJcns1yme6ZJAboqWh/giphy.gif) -->
 
 [FlashCards Starter Kit](../src/parvin.gif)
 
