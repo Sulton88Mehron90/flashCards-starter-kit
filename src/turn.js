@@ -1,14 +1,15 @@
 const evaluateGuess = (guess, correctAnswer) => {
+  let result = '';
   if (guess === correctAnswer) {
-    return 'Correct! ✅'
+    result = 'Correct! ✅';
   } else {
-    return 'Incorrect! ❎';
-  }; 
+    result = 'Incorrect! ❎';
+  };
+  console.log(result);
+  return result;
 };
 
 module.exports = {
   evaluateGuess
 };
-
-
    
