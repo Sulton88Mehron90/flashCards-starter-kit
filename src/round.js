@@ -23,12 +23,14 @@ const calculatePercentageCorrect = (round) => {
   let percent = 1 - round.incorrectGuesses.length / round.turns
   return percent * 100
 };
-  
+
 const endRound = (round) => {
-  let result = calculatePercentageCorrect(round)
-  return `** Round over! ** You answered ${result}% of the questions correctly!`
+  let result = calculatePercentageCorrect(round);
+  let message = `** Round over! ** You answered ${result}% of the questions correctly!`;
+  console.log(message);
+  return message;
 };
-   
+
   module.exports = {
     createRound, 
     takeTurn, 

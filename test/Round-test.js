@@ -142,4 +142,31 @@ describe('endRound', function() {
 
     expect(message).to.be.equal('** Round over! ** You answered 50% of the questions correctly!');
   });
+
+  describe('Round creation - sad path', function() {
+    it('Should handle an empty deck', function() {
+      const emptyDeck = createDeck([]);
+      const round = createRound(emptyDeck);
+      expect(round.deck).to.be.empty;
+      expect(round.currentCard).to.be.undefined;
+    });
+  });
+
+  describe('Ending round - sad path', function() {
+    it('Should handle calling endRound before any turns have been taken', function() {
+      const deck = createDeck([]);
+      const round = createRound(deck);
+      const message = endRound(round);
+      expect(message).to.be.equal('** Round over! ** You answered NaN% of the questions correctly!');
+    });
+  });
+
+  describe('calculatePercentageCorrect - sad path', function() {
+    it('Should handle calling calculatePercentageCorrect before any turns have been taken', function() {
+      const deck = createDeck([]);
+      const round = createRound(deck);
+      const percentage = calculatePercentageCorrect(round);
+      expect(percentage).to.be.NaN;
+    });
+  });
 });
